@@ -1,0 +1,47 @@
+# === Python / FastAPI backend ===
+*.pyc
+*.pyo
+__pycache__/
+*.log
+*.sqlite3
+.env
+.env.*
+venv/
+backend/__pycache__/
+backend/venv/
+backend/*.db
+
+# === Node.js / Next.js frontend ===
+node_modules/
+.next/
+out/
+dist/
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# === OS / IDE junk ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# === Test and coverage ===
+coverage/
+*.cover
+*.py[cod]
+.cache/
+.pytest_cache/
+.jupyter/
+
+# === Build artifacts ===
+build/
+temp/
+tmp/
+logs/
+
+# === Git ===
+*.orig
